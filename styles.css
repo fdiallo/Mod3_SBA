@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #f1ebeb;
+}
+
+
+.rounded-edge {
+  height: 480px;
+  aspect-ratio: 3/2;
+  width: 260px;
+  clip-path: ellipse(90% 85% at 40% 0);
+  
+  background-image: linear-gradient(to bottom, #a74fd4, #6525b3);
+}
+
+.phone-frame {
+    width: 180px; 
+    height: 320px;
+    background-color: #ffffff;
+    border-radius: 24px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 8px; 
+}
+
+.screen-area {
+    width: 100%;
+    height: 100%;
+    background-color: #ebe2e2;
+    border-radius: 16px; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
